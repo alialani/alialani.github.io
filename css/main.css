@@ -1,0 +1,59 @@
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+body {
+	font-family: 'Lato', sans-serif;
+}
+
+.navbar-collapse .navbar-nav li a {
+	font-size: 14px;
+	color: white;
+}
+
+.navbar-collapse .navbar-nav .contact a {
+	background: gray;
+	color: darkslategray;
+}
+
+#education .col-md-4 h1 {
+	font-size: 17px;
+	margin: 0;
+}
+
+
+
+/* #uw {
+	color: blueviolet;
+}
+
+#su {
+	color: firebrick;
+}
+
+#uot {
+	color: steelblue;
+}
+ */
+#education .col-md-4 ul li {
+	margin-left: -23px;
+}
+
+.about hr {
+	size: 3px;
+	color: darkslategray;
+}
+
+.quotation h2{
+	color: white;
+	text-align: center;
+	margin-top: 50px;
+	width: 1000px;
+	font-family: 'Lato', sans-serif;
+	font-size: 38px;
+}
+
+.su h3 {
+	font-family: 'Lato', sans-serif;
+	font-weight: 600;
+	color: gray;
+}

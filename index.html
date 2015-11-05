@@ -1,9 +1,157 @@
-<html>
-	<head>
-		<title>Ali's github portfolio</title>
-	</head>
-	<body>
-		<h1>Ali's github portfolio</h1>
-		<h2>This is Ali's placeholder page</h2>
-	</body>
+<!doctype html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang=""> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang=""> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9" lang=""> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang=""> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>Ali Al Ani Portfolio</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="apple-touch-icon" href="apple-touch-icon.png">
+
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <style>
+            body {
+                padding-bottom: 20px;
+            }
+        </style>
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.css" />
+        <link rel="stylesheet" href="css/main.css">
+		<link href='https://fonts.googleapis.com/css?family=Lato:300' rel='stylesheet' type='text/css'>
+        <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+    </head>
+    <body>
+        <!--[if lt IE 8]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+	<header style="background: darkslategray; height: 400px">
+		
+    <nav class="navbar navbar-inverse" style="padding-top: 20px; background: darkslategray; border-color: darkslategray">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-2">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+		  <img style="height: 40px; width: 40px; float: left; margin-top: 17px; margin-left: 19px" src="img/A.jpg">
+          <a class="navbar-brand" href="#" style="margin-left: -8px">
+			  <h1 style="font-size: 20px; margin: 0">ALI AL ANI</h1>
+			  <h2 style="font-size: 16px; margin: 0">Web Designer & Front-end Developer</h2>
+		  </a>
+        </div>
+
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-2" style="float: right; height: 50%">
+          <ul class="nav navbar-nav">
+            <li><a href="#about">About</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+			<li class="contact"><a href="#Contact">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+		
+		<div class="container quotation">
+			<h2>"Quality user experience through responsive web design and performant front-end development"</h1>
+			<a id="portfolio-button" class="button" href="/#portfolio" title="View portfolio items">View Portfolio 
+				<i class="fa fa-angle-down"></i>
+			</a>
+		</div>
+		
+		
+	
+
+<!-- 	<div class="row" id="education" style="margin-left: 20px; margin-top: 50px; color: white">
+	  <div class="col-md-4">
+		  <h1>GRADUATE CERTIFICATE IN WEB DESIGN AND DEVELOPMENT (CURRENTLY)</h1>
+		  <h2 id="su">SEATTLE UNIVERSITY</h2>
+		  <p>Grace Hopper was an American computer scientist and United States Navy rear admiral.</p>
+		  <p class="details">
+		  She was one of the first programmers of the Harvard Mark I computer in 1944, and invented the first compiler for a computer programming language, and the one of those who popularized the idea of machine-independent programming languages, which led to the development of COBOL, one of the first high-level programming languages.
+		  <p>
+			  <a class="btn btn-primary btn-sm view-details" style="float: right" href="#" role="button">More &raquo;</a>
+		  </p>
+	  </div>
+	  <div class="col-md-4">
+		  <h1>GRADUATE CERTIFICATE IN SOFTWARE DESIGN <br> AND DEVELOPMENT 2013</h1>
+		  <h2 id="uw">UNIVERSITY OF WASHINGTON</h2>
+
+	  </div>
+	  <div class="col-md-4">
+		  <h1>BACHELOR DEGREE IN COMPUTER SCIENCE 2002</h1>
+		  <h2 id="uot">UNIVESITY OF TECHNOLOGY (IRAQ - BAGHDAD)</h2>
+
+	  </div>
+	</div> -->
+	
+
+	</header> 
+		
+		
+    <div class="container about" style="color: darkslategray">
+      <div class="su">
+        <h2>GRADUATE CERTIFICATE IN WEB DESIGN AND DEVELOPMENT (CURRENTLY)</h2>
+		<h3 id="su">SEATTLE UNIVERSITY</h3>
+        <p class="teaser">Hopper was known for popularizing the term "bug" in software development.</p>
+        <p class="details">While she was working on a Mark II Computer at a US Navy research lab in Dahlgren, Virginia in 1947, her associates discovered a moth stuck in a relay and thereby impeding operation, whereupon she remarked that they were "debugging" the system. Though the term bug had been in use for many years in engineering to refer to small glitches and inexplicable problems, Admiral Hopper did bring the term into popularity. The remains of the moth can be found in the group's log book at the Smithsonian Institution's National Museum of American History in Washington, D.C.</p>
+        <p><a class="btn btn-default view-details" role="button">View details &raquo;</a></p>
+      </div>
+      <hr>
+      <div class="su">
+        <h2>GRADUATE CERTIFICATE IN SOFTWARE DESIGN AND DEVELOPMENT 2013</h2>
+		<h3 id="uw">UNIVERSITY OF WASHINGTON</h3>
+        <p class="teaser">Hopper was known for popularizing the term "bug" in software development.</p>
+        <p class="details">While she was working on a Mark II Computer at a US Navy research lab in Dahlgren, Virginia in 1947, her associates discovered a moth stuck in a relay and thereby impeding operation, whereupon she remarked that they were "debugging" the system. Though the term bug had been in use for many years in engineering to refer to small glitches and inexplicable problems, Admiral Hopper did bring the term into popularity. The remains of the moth can be found in the group's log book at the Smithsonian Institution's National Museum of American History in Washington, D.C.</p>
+        <p><a class="btn btn-default view-details" role="button">View details &raquo;</a></p>
+      </div>
+      <hr>
+      <div class="su">
+        <h2>BACHELOR DEGREE IN COMPUTER SCIENCE 2002</h2>
+		<h3 id="uot">UNIVESITY OF TECHNOLOGY (IRAQ - BAGHDAD)</h3>
+        <p class="teaser">Hopper was known for popularizing the term "bug" in software development.</p>
+        <p class="details">While she was working on a Mark II Computer at a US Navy research lab in Dahlgren, Virginia in 1947, her associates discovered a moth stuck in a relay and thereby impeding operation, whereupon she remarked that they were "debugging" the system. Though the term bug had been in use for many years in engineering to refer to small glitches and inexplicable problems, Admiral Hopper did bring the term into popularity. The remains of the moth can be found in the group's log book at the Smithsonian Institution's National Museum of American History in Washington, D.C.</p>
+        <p><a class="btn btn-default view-details" role="button">View details &raquo;</a></p>
+      </div>
+	</div>
+	 	  
+	<div class="container portfolio" style="background: black; width: 100%; height: 400px; margin: 0; padding: 0">  
+		<h2 STYLE="text-align: center; color: white">PORTFOLIO</h2>
+		<div class="row" id="projects" style="margin-left: 20px; margin-top: 20px; color: white">
+		  <div class="col-md-4 project">
+			<a href="http://alani-webdesign.com/videogames-onlinestore/index.html" style="background-color: #000"><img style= "width: 375px; height: auto" src="img/gamestore.png" alt="GameStore"></a>
+		  </div>
+		  <div class="col-md-4 project">
+			<a href="http://alibaba-restaurant.alani-webdesign.com" style="background-color: #000"><img style= "width: 375px; height: auto" src="img/wordpress.png" alt="Alibaba"></a>
+		  </div>
+		  <div class="col-md-4">
+			<a href="http://alani-webdesign.com/wats1020-dom-manipulation" style="background-color: #000"><img style= "width: 375px; height: au" src="img/hopper.png" alt="Grace Hopper"></a>	  
+		  </div>
+		</div>
+	</div> <!-- portfolio -->
+
+
+<!--       <div id="map">
+        <h2>Map</h2>
+
+        <div id="map-container"></div>
+      </div> -->
+
+      <footer>
+		  
+      </footer>
+    </div> <!-- /container -->
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
+
+        <script src="js/vendor/bootstrap.min.js"></script>
+        <script src="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.js"></script>
+
+        <script src="js/main.js"></script>
+
+
+    </body>
 </html>
