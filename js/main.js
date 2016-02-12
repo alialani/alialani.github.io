@@ -10,9 +10,11 @@ $( document ).ready(function() {
 			// Change the text of the "view details" button to read "hide details" so the user
   		    // understands they can hide the text again.
 			if($(el).is(':visible')) {
+// 				console.log($(el));
 			   $(el).fadeOut();
 			   targetElement.innerText = 'show details';
 			} else {
+// 				console.log($(el));
 			   $(el).fadeIn();
 			   targetElement.innerText = 'hide details';
 			}
